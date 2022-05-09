@@ -1,0 +1,85 @@
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  
+}
+
+
+.coin {
+  text-align: center;
+  display: inline-block;
+  grid-area: coin;
+  
+}
+
+
+
+body {
+  
+  background-color: #FFD59E;
+}
+
+.flip{
+  grid-area: h1;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #B5FE83;
+}
+
+p {
+  font-size: 2rem;
+  color: #FFB72B;
+  font-family: 'Indie Flower', cursive;
+  text-shadow: 1px 0 #232931;
+}
+
+img {
+  width: 60%;
+  margin: 20px;
+  
+}
+
+.button{
+  grid-area: button;
+}
+
+.buttonClass {
+  font-size: 15px;
+  font-family: Arial;
+  width: 140px;
+  height: 50px;
+  border-width: 1px;
+  color: #fff;
+  border-color: #B5FE83;
+  font-weight: bold;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: 0px 10px 14px -7px #B5FE83;
+  text-shadow: 0px 1px 0px #B5FE83;
+  background: linear-gradient(#B5FE83, #408c99);
+}
+
+.buttonClass:hover {
+  background: linear-gradient(#408c99, #B5FE83);
+}
+
+.footer{
+  grid-area: footer;
+}
+
+footer {
+  margin-top: 5%;
+  padding: auto;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
